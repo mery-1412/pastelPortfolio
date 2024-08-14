@@ -12,6 +12,15 @@ const Navbar = () => {
     document.getElementById('hero').scrollIntoView({ behavior: 'smooth' });
   }; 
 
+  const scrollToSkills = () => {
+    document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
+  }; 
+
+  const scrollToContact = () => {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+  }; 
+
+
   const handleNav = () => {
     setNav(!nav);
   };
@@ -36,12 +45,12 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">
+              <a onClick={scrollToSkills} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">
                 Skills
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">
+              <a onClick={scrollToContact} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-black md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">
                 Contact me
               </a>
             </li>

@@ -31,7 +31,7 @@ const Hero = () => {
         <p className="md:text-2xl text-xl font-mont text-gray-500 mt-4">
           Want to know more about her?
         </p>
-        <button onClick={scrollToAboutMe} className="bg-[#B8EADD] w-[200px] rounded-3xl font-mont my-6 py-3 text-black">
+        <button onClick={scrollToAboutMe} className="bg-[#B8EADD] w-[200px] rounded-3xl font-mont font-medium my-6 py-3 text-black hover:bg-[#7cdac4] hover:text-white hover:shadow-lg transition-all duration-300 ease-in-out">
           About me
         </button>
       </div>
