@@ -14,7 +14,7 @@ const Skills = () =>{
          {/* Cards*/ }
         <div className="flex justify-center align-center space-x-11 mt-10">
        
-        <a href="#" className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-1/4 mt-11 transition-transform duration-500 ease-in-out transform hover:scale-105 group">
+        <a href="/cert" className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-1/4 mt-11 transition-transform duration-500 ease-in-out transform hover:scale-105 group">
             <div className="absolute inset-0 bg-[#FEE1E9]"></div>
             <div class="absolute inset-0 bg-gradient-to-t from-gray-600 via-gray-1000/40 transition-transform duration-500 ease-in-out group-hover:from-[#e095a8] group-hover:to-[#ffeef2]"></div>
             <img src={certificate} alt="SKILL NAME" class="absolute inset-0 w-full h-full p-4 object-contain"/>

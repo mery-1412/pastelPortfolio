@@ -21,7 +21,6 @@ const Footer = () =>{
             <h2 className="font-mont font-light">
             © {new Date().getFullYear()} Mery's Portfolio. All rights reserved.
             </h2>
-
         </div>
     )
 }
