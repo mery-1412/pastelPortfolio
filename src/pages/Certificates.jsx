@@ -1,13 +1,13 @@
 import React from "react";
 import Slider from 'react-slick';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom
 import cert1 from "/home/mery1412/webProjects/portfolio/src/images/certs/AIT CHABANE Meriem_GDSC-1.png"
 import cert2 from "/home/mery1412/webProjects/portfolio/src/images/certs/certificate-of-completion-for-getting-started-with-spring-boot-1.png"
 import cert3 from "/home/mery1412/webProjects/portfolio/src/images/certs/Python_Essentials_1_Badge20230926-28-2i2kzs-1.png"
-
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import certVec from "/home/mery1412/webProjects/portfolio/src/images/certsVec.png"
 
 const Certificates = () =>{
-        const navigate = useNavigate();
         const settings = {
           dots: true,  // Show dots below the carousel
           infinite: true,  // Infinite loop sliding
@@ -22,17 +22,19 @@ const Certificates = () =>{
     
     
         return (
-        <div>
-      <button
-        onClick={() => navigate('/')} // Navigate to home on click
-        className="bg-[#B8EADD] w-[200px] rounded-3xl font-mont font-medium my-6 py-3 ml-11 text-black hover:bg-[#7cdac4] hover:text-white hover:shadow-lg transition-all duration-300 ease-in-out"
-      >
-        Back to Home
-      </button>
-      
-            <div className="flex justify-center items-center min-h-screen p-11 ">
-              <div className="w-full max-w-[60%]">
-              <h1 className="text-3xl font-mont font-medium mb-6 p-11">Certificates</h1> {/* Heading added */}
+      <div>
+        <div className="fixed w-full z-50">
+        <Navbar/>
+
+        </div>
+      <div
+        className="absolute inset-0 bg-no-repeat bg-cover h-[100%]"
+        style={{
+          backgroundImage: `url(${certVec})`,
+        }}
+      ></div>
+            <div className="flex justify-center items-center min-h-screen ">
+              <div className="w-full max-w-[50%] h-[600px] p-20 ">
                 <Slider {...settings}>
                   <div className="relative">
                     <img src={cert1} alt="Certificate 1" className="object-cover w-full h-auto rounded-lg " />
@@ -46,7 +48,8 @@ const Certificates = () =>{
                 </Slider>
               </div>
             </div>
-            </div>
+        <Footer/> 
+      </div>
           );
 }
 

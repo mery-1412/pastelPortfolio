@@ -8,27 +8,18 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
-import Certificates from "./components/Certificates";
+import Certificates from "./pages/Certificates";
+import Home from "./pages/Home";
 
 function App() {
   return (
   <>
   <Router>
-  
     <Routes>
-    <Route path="/" element={ 
-      <>
-    <Navbar/>
-    <Hero/>
-    <Skills/>
-    <AboutMe/>
-    <ContactMe/>
-    </>
-    }/>
+    <Route path="/" element={<Home/>}/>
     <Route path="/cert" element={<Certificates />} />  
     </Routes>
-    <Footer/>
-    </Router>
+  </Router>
   </>
   );
 }
