@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import certVec from "/home/mery1412/webProjects/portfolio/src/images/certsVec.png"
 
+
 const Certificates = () =>{
         const settings = {
           dots: true,  // Show dots below the carousel
@@ -23,9 +24,8 @@ const Certificates = () =>{
     
         return (
       <div>
-        <div className="fixed w-full z-50">
-        <Navbar/>
-
+        <div className="fixed w-full z-50 bg-transparent">
+           <Navbar/>
         </div>
       <div
         className="absolute inset-0 bg-no-repeat bg-cover h-[100%]"
@@ -34,7 +34,7 @@ const Certificates = () =>{
         }}
       ></div>
             <div className="flex justify-center items-center min-h-screen ">
-              <div className="w-full max-w-[50%] h-[600px] p-20 ">
+              <div className="w-full  h-[600px] p-20 md:max-w-[70%] xl:max-w-[50%]">
                 <Slider {...settings}>
                   <div className="relative">
                     <img src={cert1} alt="Certificate 1" className="object-cover w-full h-auto rounded-lg " />
