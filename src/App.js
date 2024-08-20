@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import Certificates from "./pages/Certificates";
+import Projects from "./pages/Projects";
 import Home from "./pages/Home";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/cert" element={<Certificates />} />  
+    <Route path="/projects" element={<Projects/>}/>
     </Routes>
   </Router>
   );
