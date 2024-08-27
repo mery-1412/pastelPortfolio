@@ -2,15 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import ContactMe from "./components/ContactMe";
-import Footer from "./components/Footer";
 import Certificates from "./pages/Certificates";
 import Projects from "./pages/Projects";
 import Home from "./pages/Home";
+import Bio from "./pages/Bio";
 
 function App() {
   return (
@@ -20,6 +15,8 @@ function App() {
     <Route path="/" element={<Home/>}/>
     <Route path="/cert" element={<Certificates />} />  
     <Route path="/projects" element={<Projects/>}/>
+    <Route path="/links" element={<Bio/>}/>
+  
     </Routes>
   </Router>
   );

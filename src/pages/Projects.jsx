@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 const Projects =() =>{
     return(
         <>
+        <div className="h-full w-full">
         <div className="fixed w-full z-50">
             <Navbar/>
         </div>
@@ -15,6 +16,8 @@ const Projects =() =>{
             </div>  
         </div>
         <Blog/>
+        </div>
+        <Footer/>
         </>
     )
 }
