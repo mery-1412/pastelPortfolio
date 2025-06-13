@@ -1,5 +1,5 @@
 import React from 'react';
-import heroVec from '/home/mery1412/webProjects/portfolio/src/images/hero5.png';
+import heroVec from '../images/hero5.png';
 import { Link } from 'react-router-dom';
 
 

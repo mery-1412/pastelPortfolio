@@ -1,7 +1,7 @@
 import React from "react";
-import telephone from "/home/mery1412/webProjects/portfolio/src/images/telephone.png"
-import linkedIn from "/home/mery1412/webProjects/portfolio/src/images/social.png"
-import mail from "/home/mery1412/webProjects/portfolio/src/images/mail.png"
+import telephone from "../images/telephone.png"
+import linkedIn from "../images/social.png"
+import mail from "../images/mail.png"
 
 
 

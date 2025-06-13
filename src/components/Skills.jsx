@@ -1,7 +1,7 @@
 import React from "react";
-import certificate from "/home/mery1412/webProjects/portfolio/src/images/certificate.png"
-import projects from "/home/mery1412/webProjects/portfolio/src/images/project-management.png"
-import links from "/home/mery1412/webProjects/portfolio/src/images/link.png"
+import certificate from "../images/certificate.png"
+import projects from "../images/project-management.png"
+import links from "../images/link.png"
 
 const Skills = () =>{
     return(

@@ -1,5 +1,5 @@
 import React from "react";
-import projet from "/home/mery1412/webProjects/portfolio/src/images/mpm.png";
+import projet from "../images/mpm.png";
 
 const Blog = () => {
     return (
@@ -19,11 +19,7 @@ const Blog = () => {
                 </div>
                 </div>
 
-                <div className="absolute bottom-0 w-full bg-gradient-to-t from-gray-500 to-transparent p-11 rounded-b-2xl">
-                    <div className="absolute bottom-4 right-4 bg-transparent">
-                    <button className="font-mont font-medium text-[#BAE7DC] text-2xl hover:text-white transition-all ease-in-out">Read more</button>
-                     </div>
-                </div>
+            
 
             </div>
             <div className="relative bg-[#E4CDF6] h-[750px] rounded-2xl overflow-hidden">
@@ -40,11 +36,7 @@ const Blog = () => {
                     <p className="font-mont font-light">DESCRIPTION</p>
                 </div>
                 </div>
-                <div className="absolute bottom-0 w-full bg-gradient-to-t from-gray-500 to-transparent p-11 rounded-b-2xl ">
-                    <div className="absolute bottom-4 right-4 bg-transparent">
-                    <button className="font-mont font-medium text-[#E4CDF6] text-2xl  hover:text-white transition-all ease-in-out">Read more</button>
-                     </div>
-                </div>
+           
 
             </div>
             <div className="relative bg-[#FEE1E9] h-[750px] rounded-2xl overflow-hidden">
@@ -61,11 +53,7 @@ const Blog = () => {
                     <p className="font-mont font-light">DESCRIPTION</p>
                 </div>
                 </div>
-                <div className="absolute bottom-0 w-full bg-gradient-to-t from-gray-500 to-transparent p-11 rounded-b-2xl">
-                    <div className="absolute bottom-4 right-4 bg-transparent">
-                    <button className="font-mont font-medium text-[#FEE1E9] text-2xl  hover:text-white transition-all ease-in-out">Read more</button>
-                     </div>
-                </div>
+         
 
             </div>
         </div>

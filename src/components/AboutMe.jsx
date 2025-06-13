@@ -1,5 +1,5 @@
 import React from "react";
-import amv from "/home/mery1412/webProjects/portfolio/src/images/aboutmeVec.png"
+import amv from "../images/aboutmeVec.png"
 
 
 
